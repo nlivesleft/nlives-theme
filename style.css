@@ -13,3 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     background: black !important;
     color: white;
 }
+
+.tm-footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}

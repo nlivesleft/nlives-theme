@@ -23,3 +23,8 @@ function beans_child_enqueue_assets() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css' );
 
 }
+
+beans_modify_action_callback( 'beans_footer_partial_template', 'custom_footer' );
+function custom_footer() {
+  <div class="test">test footer</div>
+}
